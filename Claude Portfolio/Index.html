@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jose Amala Kishor A — Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- Cursor Glow -->
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<!-- ─── NAV ─── -->
+<nav>
+  <a href="#hero" class="nav-logo">PORTFOLIO</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="#resume" class="nav-cta">Resume ↗</a>
+  <button class="nav-hamburger" id="navHamburger" aria-label="Toggle menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile Menu Overlay -->
+<div class="mobile-menu" id="mobileMenu">
+  <ul>
+    <li><a href="#about"      onclick="closeMobileMenu()">About</a></li>
+    <li><a href="#skills"     onclick="closeMobileMenu()">Skills</a></li>
+    <li><a href="#experience" onclick="closeMobileMenu()">Experience</a></li>
+    <li><a href="#projects"   onclick="closeMobileMenu()">Projects</a></li>
+    <li><a href="#contact"    onclick="closeMobileMenu()">Contact</a></li>
+    <li><a href="#resume"     onclick="closeMobileMenu()" class="nav-cta" style="display:inline-block;margin-top:0.5rem">Resume ↗</a></li>
+  </ul>
+</div>
+
+<!-- ─── HERO ─── -->
+<section id="hero">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+  <div class="container">
+    <div class="hero-inner">
+      <div class="hero-badge">
+        <span class="dot"></span>
+        Open to work · Available now
+      </div>
+      <h1 class="hero-name">
+        <span class="line1">JOSE AMALA</span>
+        <span class="line2">KISHOR A.</span>
+      </h1>
+      <p class="hero-role">Frontend &amp; Full Stack Developer</p>
+      <p class="hero-desc">
+        I craft pixel-perfect interfaces and build robust full-stack systems.
+        Passionate about clean code, great UX, and turning ideas into real products.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-grad">View My Work →</a>
+        <a href="#contact"  class="btn-outline">Let's Talk 💬</a>
+      </div>
+      <div class="hero-chips">
+        <span class="chip"><span class="dot" style="background:#a78bfa"></span>React</span>
+        <span class="chip"><span class="dot" style="background:#06b6d4"></span>JavaScript</span>
+        <span class="chip"><span class="dot" style="background:#f97316"></span>Java</span>
+        <span class="chip"><span class="dot" style="background:#10b981"></span>MongoDB</span>
+        <span class="chip"><span class="dot" style="background:#f59e0b"></span>Frontend</span>
+        <span class="chip"><span class="dot" style="background:#ec4899"></span>SQL</span>
+    </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── ABOUT ─── -->
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="reveal-left">
+        <span class="section-chip">✦ About Me</span>
+        <h2 class="section-title">Building things <span class="grad">that matter</span></h2>
+        <p class="section-sub" style="margin-bottom:1.5rem">
+          Hi, I'm Jose — a developer who cares deeply about both code quality and user experience.
+        </p>
+        <p>I specialize in bridging the gap between design and engineering — creating interfaces that are
+          beautiful, fast, and accessible. From elegant React components to scalable Node.js APIs, I bring
+          care to every layer of the stack.</p>
+        <p style="margin-top:1rem">When I'm not building, I'm exploring new tech, contributing to side
+          projects, and always looking for the next problem worth solving.</p>
+      </div>
+      <div class="about-cards reveal-right">
+        <div class="about-card">
+          <span class="about-card-num">1+</span>
+          <span class="about-card-label">Years Experience</span>
+        </div>
+        <div class="about-card">
+          <span class="about-card-num">5+</span>
+          <span class="about-card-label">Projects Built</span>
+        </div>
+        <div class="about-card">
+          <span class="about-card-num">Full</span>
+          <span class="about-card-label">Stack Capable</span>
+        </div>
+        <div class="about-card">
+          <span class="about-card-num">Open</span>
+          <span class="about-card-label">To Opportunities</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── SKILLS ─── -->
+<section id="skills">
+  <div class="container reveal">
+    <span class="section-chip">⚡ Tech Stack</span>
+    <h2 class="section-title">My <span class="grad">Skills</span></h2>
+    <p class="section-sub">Technologies and tools I work with daily to build great products.</p>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <span class="skill-group-icon">🎨</span>
+        <p class="skill-group-title">Frontend</p>
+        <div class="skill-tags">
+          <span class="skill-tag">HTML5</span>
+          <span class="skill-tag">CSS3</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">Tailwind</span>
+          <span class="skill-tag">Responsive</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <span class="skill-group-icon">⚙️</span>
+        <p class="skill-group-title">Backend</p>
+        <div class="skill-tags">
+          <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">Express</span>
+          <span class="skill-tag">Java</span>
+          <span class="skill-tag">REST APIs</span>
+          <span class="skill-tag">Auth/JWT</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <span class="skill-group-icon">🗄️</span>
+        <p class="skill-group-title">Database</p>
+        <div class="skill-tags">
+          <span class="skill-tag">MongoDB</span>
+          <span class="skill-tag">MySQL</span>
+          <span class="skill-tag">SQL</span>
+          <span class="skill-tag">Mongoose</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <span class="skill-group-icon">🛠️</span>
+        <p class="skill-group-title">Tools</p>
+        <div class="skill-tags">
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">GitHub</span>
+          <span class="skill-tag">VS Code</span>
+          <span class="skill-tag">Postman</span>
+          <span class="skill-tag">Figma</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── EXPERIENCE ─── -->
+<section id="experience">
+  <div class="container reveal">
+    <span class="section-chip">💼 Career</span>
+    <h2 class="section-title">Where I've <span class="grad">Worked</span></h2>
+    <p class="section-sub">My professional journey so far.</p>
+    <div class="timeline">
+      <div class="tl-card">
+        <div class="tl-icon">🚀</div>
+        <div class="tl-meta">
+          <span class="tl-date">2023 — Present</span>
+          <p class="tl-role">Full Stack Developer</p>
+          <p class="tl-company">Company / Organization Name</p>
+          <p class="tl-desc">Developed and maintained full-stack web applications using React, Node.js, and MongoDB.
+            Collaborated with designers and product teams to deliver high-quality features on time.</p>
+        </div>
+      </div>
+      <div class="tl-card">
+        <div class="tl-icon">💻</div>
+        <div class="tl-meta">
+          <span class="tl-date">2022 — 2023</span>
+          <p class="tl-role">Frontend Developer</p>
+          <p class="tl-company">Company / Organization Name</p>
+          <p class="tl-desc">Built responsive, accessible UI components in React and JavaScript.
+            Improved page load performance by 40% through code splitting and lazy loading.</p>
+        </div>
+      </div>
+      <div class="tl-card">
+        <div class="tl-icon">🌱</div>
+        <div class="tl-meta">
+          <span class="tl-date">2021 — 2022</span>
+          <p class="tl-role">Web Development Intern</p>
+          <p class="tl-company">Company / Organization Name</p>
+          <p class="tl-desc">Assisted in building client-facing web pages using HTML, CSS, and JavaScript.
+            Gained hands-on experience with Git workflows and agile processes.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── PROJECTS ─── -->
+<section id="projects">
+  <div class="container reveal">
+    <span class="section-chip">🛠 Projects</span>
+    <h2 class="section-title">Things I've <span class="grad">Built</span></h2>
+    <p class="section-sub">A selection of projects that showcase my skills across the full stack.</p>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <span class="project-emoji">🛒</span>
+        <p class="project-type">Full Stack</p>
+        <h3 class="project-title">E-Commerce Platform</h3>
+        <p class="project-desc">Full online shopping platform with user authentication, product management,
+          cart system, and payment integration.</p>
+        <div class="project-stack">
+          <span>React</span><span>Node.js</span><span>MongoDB</span><span>Express</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link">Live Demo ↗</a>
+          <a href="#" class="project-link">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <span class="project-emoji">📋</span>
+        <p class="project-type">Frontend</p>
+        <h3 class="project-title">Task Manager</h3>
+        <p class="project-desc">Drag-and-drop Kanban board with local persistence, priority labels,
+          and deadline tracking.</p>
+        <div class="project-stack">
+          <span>React</span><span>JavaScript</span><span>CSS3</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link">Live Demo ↗</a>
+          <a href="#" class="project-link">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <span class="project-emoji">📝</span>
+        <p class="project-type">Full Stack</p>
+        <h3 class="project-title">Blog CMS</h3>
+        <p class="project-desc">Content management system with rich text editing, category filters,
+          and a full admin dashboard.</p>
+        <div class="project-stack">
+          <span>Java</span><span>SQL</span><span>HTML</span><span>CSS</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link">Live Demo ↗</a>
+          <a href="#" class="project-link">GitHub →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <span class="project-emoji">🌤️</span>
+        <p class="project-type">Frontend</p>
+        <h3 class="project-title">Weather Dashboard</h3>
+        <p class="project-desc">Real-time weather app with 5-day forecast, location search,
+          and dynamic UI themes via public API.</p>
+        <div class="project-stack">
+          <span>JavaScript</span><span>HTML</span><span>CSS</span>
+        </div>
+        <div class="project-links">
+          <a href="#" class="project-link">Live Demo ↗</a>
+          <a href="#" class="project-link">GitHub →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ─── RESUME ─── -->
+<section id="resume">
+  <div class="container reveal">
+    <span class="section-chip">📄 Resume</span>
+    <h2 class="section-title">My <span class="grad">CV</span></h2>
+    <div class="resume-card">
+      <div class="resume-card-inner">
+        <h3>Jose Amala Kishor A</h3>
+        <p>Frontend &amp; Full Stack Developer — Updated 2024</p>
+      </div>
+      <div class="resume-btns">
+        <a href="Jose New Resume.pdf" class="btn-grad">Download PDF ↓</a>
+        <a href="Jose New Resume.pdf" class="btn-outline">View Online ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── CONTACT ─── -->
+<section id="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="reveal-left">
+        <span class="section-chip">📬 Contact</span>
+        <h2 class="section-title">Let's Work <span class="grad">Together</span></h2>
+        <p class="contact-intro">
+          I'm open to freelance projects, full-time roles, and interesting collabs.
+          Have something in mind? Let's talk.
+        </p>
+        <div class="contact-items">
+          <a href="mailto:joseamalakishor8@gmail.com" class="contact-item">
+            <div class="contact-icon">✉️</div>
+            <div>
+              <div class="contact-label">Email</div>
+              <div class="contact-val">joseamalakishor8@gmail.com</div>
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/jose-amala-kishor-a-b59b1729b/" class="contact-item" target="_blank">
+            <div class="contact-icon">💼</div>
+            <div>
+              <div class="contact-label">LinkedIn</div>
+              <div class="contact-val">linkedin.com/in/jose-amala-kishor</div>
+            </div>
+          </a>
+          <a href="https://github.com/Joseamalakishor" class="contact-item" target="_blank">
+            <div class="contact-icon">🐙</div>
+            <div>
+              <div class="contact-label">GitHub</div>
+              <div class="contact-val">github.com/joseamalakishor</div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="reveal-right">
+        <form class="contact-form" onsubmit="handleSubmit(event)">
+          <div class="form-group">
+            <input type="text"  placeholder="Your Name"  required/>
+            <input type="email" placeholder="Your Email" required/>
+          </div>
+          <input type="text" placeholder="Subject"/>
+          <textarea placeholder="Tell me about your project…"></textarea>
+          <button type="submit" class="btn-send">Send Message →</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── FOOTER ─── -->
+<footer>
+  Designed &amp; Built with ❤️ by <span>Jose Amala Kishor A</span> · 2024
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
